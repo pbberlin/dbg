@@ -183,6 +183,6 @@ func CallingLine(lvls ...int) string {
 	}
 
 	sts = sts[rowsUp : rowsUp+1]
-	return string(sts[0])
+	return cleanse(string(sts[0]))
 
 }
